@@ -45,20 +45,6 @@ API Endpoints
 - `POST /api/appointments` - Create new appointment
 - `GET /api/appointments` - Get user's appointments
 
-Project Structure
-appointment-management-system/
-├── server.js              # Backend server
-├── package.json           # Backend dependencies
-├── client/                # React frontend
-│   ├── src/
-│   │   ├── App.js         # Main React component
-│   │   ├── App.css        # Styles
-│   │   └── index.js       # React entry point
-│   ├── public/
-│   │   └── index.html     # HTML template
-│   └── package.json       # Frontend dependencies
-└── README.md              # Documentation
-
 Working Hours Validation
 The system ensures all appointments are scheduled within working hours (09:00-17:00) for all participants in their respective timezones. If any participant's timezone would place the meeting outside working hours, the appointment creation will be rejected.
 
